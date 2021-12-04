@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aoc-21"
+version = "0.1.0"
+description = ""
+authors = ["johnpyp <johnpyp.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "^1.21.4"
+aoc-helper = {extras = ["cli", "colour"], version = "^1.1.0"}
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+pyright = "^0.0.13"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
